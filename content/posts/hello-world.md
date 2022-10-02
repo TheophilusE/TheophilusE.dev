@@ -1,6 +1,6 @@
 ---
 title: "First Post"
-date: 2022-10-01
+date: October 1, 2022
 weight: 160
 draft: false
 summary: "A simple post to test the post functionality."
