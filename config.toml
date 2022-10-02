@@ -59,3 +59,8 @@ url = "https://www.linkedin.com/in/theophilus-eriata-a58425234/"
 name = "About"
 weight = 1
 url = "about/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
