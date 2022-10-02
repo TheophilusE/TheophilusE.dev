@@ -30,8 +30,8 @@ info = "Software Developer"
 
 dateFormat = "2006-01-02"
 
-colorScheme = "dark"
-hideColorSchemeToggle = true
+colorScheme = "auto"
+hideColorSchemeToggle = false
 
 customCSS = ["css/custom.css", "css/syntax.css"]
 
@@ -39,7 +39,7 @@ customCSS = ["css/custom.css", "css/syntax.css"]
 code = "theophiluse72"
 
 [params.utterances]
-repo = "TheophilusE/TheophilusE.github.io"
+repo = "TheophilusE/TheophilusE.dev"
 issueTerm = "pathname"
 theme = "github-dark"
 
