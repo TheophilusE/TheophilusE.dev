@@ -1,5 +1,5 @@
 # Theophilus Eriata's Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/30570a39-b3a9-4203-ad59-85fded49fb24/deploy-status)](https://app.netlify.com/sites/luizdepra-website/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba0ba817-eb79-453d-b439-95ab0e932dd0/deploy-status)](https://app.netlify.com/sites/theophiluse/deploys)
 
 Theophilus Eriata's website and blog.
