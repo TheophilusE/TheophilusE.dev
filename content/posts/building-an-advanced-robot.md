@@ -1,9 +1,9 @@
 ---
-title: "First Post"
+title: "Programming and Advanced Robot for FTC Competitions"
 date: 2022-11-20
 weight: 998
 draft: false
-summary: "Building an advanced robot for the First Tech Challenge (FTC) Competitions."
+summary: "Programming an advanced robot for the First Tech Challenge (FTC) Competitions. A Control Award Submission."
 tags: ["Blog"]
 categories: ["Blog","FTC"]
 #aliases: [/whatalias]
@@ -11,6 +11,6 @@ featuredImage: "/images/FIRST_Horz_RGB.jpg"
 #images: ["/images/hello-world.gif"]
 ---
 
-## Building an Advanced Robot
+## Introduction
 
 Hello, World!
