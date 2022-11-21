@@ -1,5 +1,5 @@
 ---
-title: "Programming and Advanced Robot for FTC Competitions"
+title: "Programming an Advanced Robot for FTC Competitions"
 date: 2022-11-20
 weight: 998
 draft: false
