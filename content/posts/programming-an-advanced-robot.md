@@ -13,7 +13,7 @@ featuredImage: "/images/FIRST_Horz_RGB.jpg"
 
 ## Introduction
 
-This post documents the creation process of an advanced robot for the FTC 2021-2022 (Freight Frenzy) season.
+This post documents the programming process of an advanced robot for the FTC 2021-2022 (Freight Frenzy) season.
 
 ## Drive Control Scheme
 
