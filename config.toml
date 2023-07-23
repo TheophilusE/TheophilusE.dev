@@ -34,7 +34,7 @@ dateFormat = "2006-01-02"
 colorScheme = "auto"
 hideColorSchemeToggle = false
 
-customCSS = []
+customCSS = ["css/custom.css", "css/syntax.css"]
 customJS = []
 customRemoteJS = []
 
