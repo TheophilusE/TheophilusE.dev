@@ -28,7 +28,7 @@ This year (2022-2023), I mentored an all-girls robotics team where I got to shar
 
 The topics I covered included Mathematics, Robotics, Computer Science and the art of Programming.
 
-## Mathematics
+#### Mathematics
 
 1. This included an introduction to Linear Algebra, specifically to do with two and three dimensional vectors and transformations.
 
@@ -53,7 +53,7 @@ The topics I covered included Mathematics, Robotics, Computer Science and the ar
         - [Why use HSV Colour Space In Vision and Image Processing - Stack Exchange](https://dsp.stackexchange.com/questions/2687/why-do-we-use-the-hsv-colour-space-so-often-in-vision-and-image-processing)
         - [What is YCBCr? - RW Designer](http://www.rw-designer.com/color-space)
 
-## Software Development
+#### Software Development
 
 1. Opmode by Composition.
 
@@ -90,9 +90,11 @@ The topics I covered included Mathematics, Robotics, Computer Science and the ar
     * And more...
 
 
-## Development Tools
+#### Development Tools
 
 * [Android Studio](https://developer.android.com/studio). An Integrated Development Environment (IDE) for Android app development.
 * [Git](https://git-scm.com/). A free and open source distributed version control system.
 * [Fork](https://git-fork.com/). A user-friendly Git client with free evaluation (permanent as of writing).
 * [GitHub](https://github.com/). A cloud-based Git repository hosting service.
+
+Checkout the source code on [GitHub](https://github.com/TheophilusE/FTC_PowerPlay/).
