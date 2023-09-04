@@ -12,6 +12,11 @@ featuredImage: "/images/FIRST_Horz_RGB.jpg"
 #images: ["/images/hello-world.gif"]
 ---
 
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
 ### Contents
 
 - [Introduction](#introduction)
@@ -62,7 +67,7 @@ The topics I covered included Mathematics, Robotics, Computer Science and the ar
 
 2. Finite State Machines.
 
-    * This is used in the autonomous programs to build out the various states that the robot can be in at any given moment. This means that the robot has exactly only one state amongst a variety of states which are defined. For instance, if the robot has the following states \($\{Run, Walk, Jump, Idle\dots\}$\) the robot can only be in one of the aforementioned states. See [AutonomousDrive.java](https://github.com/TheophilusE/FTC_PowerPlay/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmode/autonomous/AutonomousDrive.java) to see this in action.
+    * This is used in the autonomous programs to build out the various states that the robot can be in at any given moment. This means that the robot has exactly only one state amongst a variety of states which are defined. For instance, if the robot has the following states $\{Run, Walk, Jump, Idle\dots\}$ the robot can only be in one of the aforementioned states. See [AutonomousDrive.java](https://github.com/TheophilusE/FTC_PowerPlay/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmode/autonomous/AutonomousDrive.java) to see this in action.
 
     <br />
 
