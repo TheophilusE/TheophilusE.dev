@@ -67,7 +67,7 @@ The topics I covered included Mathematics, Robotics, Computer Science and the ar
 
 2. Finite State Machines.
 
-    * This is used in the autonomous programs to build out the various states that the robot can be in at any given moment. This means that the robot has exactly only one state amongst a variety of states which are defined. For instance, if the robot has the following states $\{Run, Walk, Jump, Idle\dots\}$ the robot can only be in one of the aforementioned states. See [AutonomousDrive.java](https://github.com/TheophilusE/FTC_PowerPlay/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmode/autonomous/AutonomousDrive.java) to see this in action.
+    * This is used in the autonomous programs to build out the various states that the robot can be in at any given moment. This means that the robot has exactly only one state amongst a variety of states which are defined. For instance, if the robot has the following states \($\{Run, Walk, Jump, Idle\dots\}$\) the robot can only be in one of the aforementioned states. See [AutonomousDrive.java](https://github.com/TheophilusE/FTC_PowerPlay/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmode/autonomous/AutonomousDrive.java) to see this in action.
 
     <br />
 
