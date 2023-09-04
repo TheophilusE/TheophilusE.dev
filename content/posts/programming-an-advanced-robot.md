@@ -4,6 +4,7 @@ date: 2022-11-20
 weight: 999
 draft: false
 summary: "Programming an advanced robot for the First Tech Challenge (FTC) Competitions. A Control Award Submission."
+authors: = ["Theophilus Eriata"]
 tags: ["Blog", "FTC"]
 categories: ["Blog","FTC"]
 #aliases: [/whatalias]
