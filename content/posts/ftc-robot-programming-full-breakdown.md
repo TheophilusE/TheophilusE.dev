@@ -97,4 +97,4 @@ The topics I covered included Mathematics, Robotics, Computer Science and the ar
 * [Fork](https://git-fork.com/). A user-friendly Git client with free evaluation (permanent as of writing).
 * [GitHub](https://github.com/). A cloud-based Git repository hosting service.
 
-Checkout the source code on [GitHub](https://github.com/TheophilusE/FTC_PowerPlay/).
+Checkout the source code on [GitHub](https://github.com/TheophilusE/FTC_PowerPlay/tree/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode).
