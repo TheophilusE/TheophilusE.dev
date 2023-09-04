@@ -67,3 +67,8 @@ url = "about/"
 name = "Blog"
 weight = 2
 url = "posts/"
+
+[[menu.main]]
+name = "Categories"
+weight = 3
+url = "categories/"
