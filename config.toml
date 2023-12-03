@@ -25,7 +25,7 @@ author = "Theophilus Eriata"
 avatarURL = "images/avatar.jpg"
 images = ["images/og_cover.png"]
 description = "Personal site for public interface"
-keywords = "TheophilusEriata,Blog,SoftwareDevelopment,C++,Java,Python,FTC"
+keywords = "TheophilusEriata,Blog,Mathematics,SoftwareDevelopment,C++,Java,Python,FTC"
 info = "Computer Scientist"
 
 since = 2022
