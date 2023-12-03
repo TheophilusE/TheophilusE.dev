@@ -1,7 +1,7 @@
 ---
 title: "Math 265 Reflection | University of Calgary"
 date: 2023-12-02
-weight: 999
+weight: 997
 draft: false
 summary: "Math 265 Reflection at the University of Calgary."
 authors: = ["Theophilus Eriata"]
