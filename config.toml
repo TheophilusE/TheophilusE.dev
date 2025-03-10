@@ -38,6 +38,9 @@ customCSS = ["css/custom.css", "css/syntax.css"]
 customJS = []
 customRemoteJS = []
 
+[params.googleTagManager]
+id = "G-PVVE70X9RZ"
+
 [params.goatCounter]
 code = "theophiluse72"
 
