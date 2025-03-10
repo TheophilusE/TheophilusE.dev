@@ -17,7 +17,7 @@ In mathematical discourse, the conceptualization of structure and function serve
 
 ## Introduction
 
-The interplay between structure and function in mathematics transcends mere theoretical abstraction; it embodies the essence of rigorous formalizations and precise semantics. As mathematical structures underpin the foundational frameworks within which functions operate, formalization emerges as the sine qua non for ensuring clarity and exactitude in mathematical discourse. This note aims to elucidate the intricate dynamics between structure and function, with a focus on the formalization processes that guarantee semantic rigor.
+The interplay between structure and function in mathematics transcends mere theoretical abstraction; it embodies the essence of rigorous formalizations and precise semantics. As mathematical structures strengthens the foundational frameworks within which functions operate, formalization emerges as the sine qua non for ensuring clarity and exactitude in mathematical discourse. This note aims to elucidate the intricate dynamics between structure and function, with a focus on the formalization processes that guarantee semantic rigor.
 
 ## Formal Systems and Mathematical Structures
 
