@@ -25,7 +25,7 @@ The theme "Nourish to Flourish" emphasizes the connections between food and heal
    Throughout the month, Dietitians of Canada shared inspiring stories from their members, showcasing the positive impact dietitians have on the health of Canadians (Dietitians of Canada, 2025). Motivated by these stories, I decided to share my own experiences with friends, family, and social media followers (this blog), emphasizing the importance of nutrition and encouraging others to adopt healthier eating habits.
 
 3. **Participating in Advocacy Initiatives** \
-   I joined advocacy efforts by participating in the Advocacy Webinar hosted by Santis Health, which focused on effective strategies for the upcoming election and essential advocacy practices (Dietitians of Canada, 2025). This experience will provide me with valuable insights into how I can contribute to policy changes that promote better nutrition and public health.
+   I joined advocacy efforts by participating in the Advocacy Webinar hosted by Santis Health, which is focused on effective strategies for the upcoming election and essential advocacy practices (Dietitians of Canada, 2025). This experience will provide me with valuable insights into how I can contribute to policy changes that promote better nutrition and public health.
 
 4. **Utilizing Resources and Toolkits** \
    Dietitians of Canada provided comprehensive planning guides, toolkits, and branded graphics to help individuals get involved with Nutrition Month (Dietitians of Canada, 2025). I utilized these resources in the writing of this blog post to share educational materials with my community, empowering me to effectively advocate for better nutrition practices.
