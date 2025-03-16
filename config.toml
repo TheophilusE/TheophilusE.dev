@@ -4,7 +4,7 @@ theme = "coder"
 
 languageCode = "en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 paginate = 20
 canonifyURLs = true
