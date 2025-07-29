@@ -1,4 +1,4 @@
 ---
 title: "Papers"
-description: "A selection of technical preprints, research articles, and scholarly explorations authored by Theophilus Eriata—spanning graphics engineering, robotics, computational modeling, and AI systems."
+description: "Hands-on applications of theory and research—ranging from prototyped systems to experimental software and robotics demos. A showcase of real-world problem solving, technical creativity, and collaborative exploration."
 ---
