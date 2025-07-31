@@ -1,7 +1,7 @@
 ---
 title: "Mastering FTC Freight Frenzy: Advanced Robot Programming Techniques"
 date: 2022-11-20
-tags: [ "Blog", "FTC", "Freight Frenzy", "Robot Programming", "Autonomous", "TeleOp", "Road Runner", "OpenCV", "TensorFlow", "PID Control", "Holonomic Drive", "Mecanum Drive", "Field-Centric Control", "Entity Component System", "Control Hub Optimization", "Vision Pipeline", "FTC Dashboard", "Motion Planning", "Java", "FIRST Tech Challenge", "Robot Architecture"]
+tags: [ "Blog", "FTC", "Robot Programming", "OpenCV", "TensorFlow", "Control Theory", "Holonomic Drive", "Mecanum Drive", "Field-Centric Control", "Entity Component System", "Control Hub Optimization", "Vision Pipeline", "FTC Dashboard", "Motion Planning", "Java", "FIRST Tech Challenge", "Robot Architecture"]
 author: ["Theophilus Eriata"]
 description: "Explore the advanced programming strategies powering an FTC Freight Frenzy robot—drive modes, intelligent path planning, vision pipelines, ECS architecture, and performance optimizations."
 summary: "This Control Award submission walks through the software architecture behind our FTC 2021–22 robot. We cover four drive-control schemes, modular control accessors, hardware-level optimizations, an Intelligent Drive Assist built on Road Runner, OpenCV vision pipelines, and an Entity Component System for scalable OpMode composition."
