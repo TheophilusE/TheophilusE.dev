@@ -1,0 +1,137 @@
+# -----------------------------------------------------------------------------
+# Site Configuration for Theophilus Eriata
+# -----------------------------------------------------------------------------
+
+baseURL: "/"
+languageCode: "en-us"
+title: "Theophilus Eriata"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Home
+      url: "/"
+      weight: 1
+    - name: About
+      url: "/about/"
+      weight: 2
+    - name: Skills
+      url: "/skills/"
+      weight: 3
+    - name: Experience
+      url: "/experience/"
+      weight: 4
+    - name: Projects
+      url: "/projects/"
+      weight: 5
+    - name: Leadership
+      url: "/leadership/"
+      weight: 6
+    - name: Awards
+      url: "/awards/"
+      weight: 7
+    - name: Blog
+      url: "/blog/"
+      weight: 8
+    - name: Contact
+      url: "/contact/"
+      weight: 9
+
+params:
+  author: "Theophilus Eriata"
+  description: "Undergraduate Computer Science (Honours) student at University of Calgary, specializing in Graphics, Robotics, DevOps, and Real-Time Systems."
+  googleAnalyticsID: "G-PVVE70X9RZ"
+  DateFormat: "2006-01-02"
+
+  defaultTheme: "light"
+  disableThemeToggle: false
+  hideFooter: false
+
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  disableScrollToTop: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowToc: false
+  ShowWordCount: false
+  ShowAllPagesInArchive: false
+
+  math: true
+  comments: false
+  TocOpen: true
+  UseHugoToc: true
+
+  MainSections: ["about","skills","experience","projects","leadership","awards","blog"]
+
+  profileMode:
+    enabled: true
+    title: "Theophilus Eriata"
+    subtitle: "Software & Graphics Engineer | Robotics Enthusiast | Full-Stack Developer"
+    imageUrl: "images/avatars/theophiluse.jpg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: About Me
+        url: /about/
+      - name: Projects
+        url: /projects/
+      - name: Blog
+        url: "/blog/"
+      - name: Contact
+        url: "/contact/"
+      - name: Tags
+        url: tags/
+      - name: Archive
+        url: /archive/
+
+  socialIcons:
+    - name: Email
+      url: "mailto:theophiluse@xiitechnologies.com"
+    - name: GitHub
+      url: "https://github.com/TheophilusE"
+    - name: GitLab
+      url: "https://gitlab.com/TheophilusE"
+    - name: LinkedIn
+      url: "https://linkedin.com/in/theophilus-eriata"
+    - name: YouTube
+      url: "https://www.youtube.com/@Theophilus-E"
+    - name: X
+      url: "https://x.com/TheophilusE12"
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=Theophilus+Eriata
+
+  assets:
+    disableScrollBarStyle: true
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+  label:
+    text: "Theophilus Eriata"
+    icon: "favicon.ico"
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: "autumn"
+  tableOfContents:
+    startLevel: 2
+    endLevel: 2
+    ordered: false
