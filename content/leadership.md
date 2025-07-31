@@ -109,7 +109,7 @@ I believe leadership is best measured by the opportunities I create for others a
               stroke="#2a9d8f"/>
       <text x="18" y="20.35" class="chart-text">100%</text>
     </svg>
-    <div class="number">20</div>
+    <div class="number">62</div>
     <div class="label">Students Mentored</div>
   </div>
 
