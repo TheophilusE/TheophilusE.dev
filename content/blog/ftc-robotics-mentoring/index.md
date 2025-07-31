@@ -547,70 +547,84 @@ For smooth starts/stops, we plan a trajectory with three phases.
 We provide a simple profile generator,
 
 ```java
-public class MotionProfile {
-    double aMax, vMax, xTotal;
-    double t1, t2, T;
+public class MotionProfile
+{
+  double aMax, vMax, xTotal;
+  double t1, t2, T;
 
-    public MotionProfile(double aMax, double vMax, double xTotal) {
-        this.aMax = aMax;
-        this.vMax = vMax;
-        this.xTotal = xTotal;
+  public MotionProfile(double aMax, double vMax, double xTotal)
+  {
+    this.aMax = aMax;
+    this.vMax = vMax;
+    this.xTotal = xTotal;
 
-        // Compute transition times
-        t1 = vMax / aMax;
-        double xAccel = 0.5 * aMax * t1 * t1;
-        double xCruise = xTotal - 2 * xAccel;
+    // Compute transition times
+    t1             = vMax / aMax;
+    double xAccel  = 0.5 * aMax * t1 * t1;
+    double xCruise = xTotal - 2 * xAccel;
 
-        if (xCruise < 0) {
-            // Triangular profile fallback (no cruise)
-            t1 = Math.sqrt(xTotal / aMax);
-            t2 = t1;
-            T = 2 * t1;
-        } else {
-            double tCruise = xCruise / vMax;
-            t2 = t1 + tCruise;
-            T = t2 + t1;
-        }
+    if (xCruise < 0)
+    {
+      // Triangular profile fallback (no cruise)
+      t1 = Math.sqrt(xTotal / aMax);
+      t2 = t1;
+      T  = 2 * t1;
     }
-
-    public MotionState getState(double t) {
-        if (t < t1) {
-            double v = aMax * t;
-            double x = 0.5 * aMax * t * t;
-            double a = aMax;
-            return new MotionState(x, v, a);
-        } else if (t < t2) {
-            double v = vMax;
-            double x = 0.5 * aMax * t1 * t1 + vMax * (t - t1);
-            return new MotionState(x, v, 0.0);
-        } else if (t < T) {
-            double td = t - t2;
-            double v = aMax * (T - t);
-            double x = 0.5 * aMax * t1 * t1 + vMax * (t2 - t1)
-                     + vMax * td - 0.5 * aMax * td * td;
-            double a = -aMax;
-            return new MotionState(x, v, a);
-        } else {
-            // End of profile
-            return new MotionState(xTotal, 0.0, 0.0);
-        }
+    else
+    {
+      double tCruise = xCruise / vMax;
+      t2             = t1 + tCruise;
+      T              = t2 + t1;
     }
+  }
+
+  public MotionState getState(double t)
+  {
+    if (t < t1)
+    {
+      double v = aMax * t;
+      double x = 0.5 * aMax * t * t;
+      double a = aMax;
+      return new MotionState(x, v, a);
+    }
+    else if (t < t2)
+    {
+      double v = vMax;
+      double x = 0.5 * aMax * t1 * t1 + vMax * (t - t1);
+      return new MotionState(x, v, 0.0);
+    }
+    else if (t < T)
+    {
+      double td = t - t2;
+      double v  = aMax * (T - t);
+      double x  = 0.5 * aMax * t1 * t1 + vMax * (t2 - t1)
+                  + vMax * td - 0.5 * aMax * td * td;
+      double a  = -aMax;
+      return new MotionState(x, v, a);
+    } else
+    {
+      // End of profile
+      return new MotionState(xTotal, 0.0, 0.0);
+    }
+  }
 }
 ```
 
 with motion state
 
 ```java
-public class MotionState {
-    public final double position;
-    public final double velocity;
-    public final double acceleration;
+public class MotionState
+{
+  public final double m_fPosition;
+  public final double m_fVelocity;
+  public final double m_fAcceleration;
 
-    public MotionState(double x, double v, double a) {
-        this.position = x;
-        this.velocity = v;
-        this.acceleration = a;
-    }
+  public MotionState(double x, double v, double a)
+  {
+    m_fPosition     = x;
+    m_fVelocity     = v;
+    m_fAcceleration = a;
+  }
 }
 ```
 
@@ -620,8 +634,8 @@ which combined with PID and Feed Forward, we obtain the following.
 double t          = timer.seconds();
 MotionState state = profile.getState(t);
 
-double ff = Fv * state.velocity + Fa * state.acceleration;
-double fb = pid.update(state.position - currentPosition);
+double ff = Fv * state.m_fVelocity + Fa * state.m_fAcceleration;
+double fb = pid.update(state.m_fPosition - currentPosition);
 
 motor.setPower(ff + fb);
 ```
@@ -728,7 +742,8 @@ public void evaluateVision()
 ### Scheduling Default Park (No Signal)
 
 ```java
-public void scheduleDefaultPark() {
+public void scheduleDefaultPark()
+{
   DriveSubsystem drive = getComponent(DriveSubsystem.class);
   ElapsedTime t        = new ElapsedTime();
   // Strafe direction depends on alliance

@@ -16,6 +16,7 @@ math: true
 ---
 
 ## Abstract
+
 In mathematical discourse, the conceptualization of structure and function serves as a cornerstone for rigorous formalization and precise semantics. This note delves into the symbiotic relationship between structure and function, emphasizing the pivotal role of formalized frameworks in ensuring unambiguous communication and understanding among mathematicians. We explore the underlying principles of formal systems, their impact on the fidelity of mathematical objects, and the intricate semantics that govern their functional attributes.
 
 ## Introduction
