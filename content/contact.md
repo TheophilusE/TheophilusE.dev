@@ -99,7 +99,7 @@ I’d love to hear from you! Whether you have a question about my projects, want
     <!-- Disable Captcha -->
     <input type="hidden" name="_captcha" value="false">
     <!-- Redirect after submit (optional) -->
-    <input type="hidden" name="_next" value="#">
+    <input type="hidden" name="_next" value="https://theophiluse.xiitechnologies.com/contact">
 
     <div class="form-group">
       <label for="name">Your Name</label>
