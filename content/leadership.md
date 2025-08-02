@@ -61,6 +61,15 @@ I believe leadership is best measured by the opportunities I create for others a
     font-size: 0.85rem;
     color: #555;
   }
+  .disclaimer {
+    font-size: 0.75rem;
+    color: #777;
+    text-align: center;
+    margin: 2rem auto 1rem;
+    max-width: 800px;
+    line-height: 1.4;
+  }
+
 </style>
 
 <div class="dashboard">
@@ -137,11 +146,17 @@ I believe leadership is best measured by the opportunities I create for others a
     <div class="label">Funds Raised</div>
   </div>
 
+  <!-- Disclaimer -->
+  <p class="disclaimer">
+    The data and metrics shown on this page are based on my personal records and estimates. Affiliations, roles, and projects are listed for reference only and do not constitute official statements or endorsements by any organization. Results and experiences may vary.
+  </p>
+
 </div>
 
 ### Volunteer & Service Roles
 
 - **Emergency, Patient Support, and Site Wayfinder Volunteer, Alberta Health Services.**
+
   - Provided clear and accurate directions to patients, visitors, and staff within the Hospital Setting.
   - Utilized strong verbal communication skills to effectively interact with a diverse population, including patients, visitors, and health professionals.
 
@@ -152,6 +167,7 @@ I believe leadership is best measured by the opportunities I create for others a
 ### Mentorship & STEM Outreach
 
 - **FIRST Robotics Mentor, Calgary Board of Education.**
+
   - Mentored a new all-girls robotics team on the foundations of robotics, this included a treatment on mathematics, computer science, and the art of programming.
   - Taught essential mathematics for robotics, covering topics such as Linear Algebra, Control Theory, Color Space Theory, and Trigonometry.
   - Developed goal-oriented programs tailored to meet seasonal requirements, ensuring students were well-prepared for the competitive events.
@@ -163,6 +179,7 @@ I believe leadership is best measured by the opportunities I create for others a
 ### Organizational Leadership
 
 - **District Committee Chair & Senior VP, Rotary District 5360 & Rotaract UCalgary.**
+
   - Coordinated district-wide initiatives and projects, fostering collaboration and engagement among Rotaract clubs.
   - Developed and implemented strategic plans to enhance the impact and reach of Rotaract activities.
 
