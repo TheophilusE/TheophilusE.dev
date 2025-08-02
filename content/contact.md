@@ -7,8 +7,6 @@ I’d love to hear from you! Whether you have a question about my projects, want
 - Email: `theophiluse <at> xiitechnologies <dot> com`.
 - Discord: `theophiluse`.
 
-### Send a Message
-
 {{< rawhtml >}}
 
 <style>
@@ -94,7 +92,7 @@ I’d love to hear from you! Whether you have a question about my projects, want
 </style>
 
 <div class="form-wrapper">
-  <h2>Drop Me a Line</h2>
+  <h2>Send a Message</h2>
   <form action="https://formsubmit.co/17b3dc57a7a0c7e50a994fc8746be041" method="POST">
     <!-- Disable Captcha -->
     <input type="hidden" name="_captcha" value="false">
