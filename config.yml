@@ -100,6 +100,8 @@ params:
       url: "https://www.youtube.com/@Theophilus-E"
     - name: X
       url: "https://x.com/TheophilusE12"
+    - name: Itch.io
+      url: https://theophiluse.itch.io
     - name: Google Scholar
       url: https://scholar.google.com/citations?user=Theophilus+Eriata
 
