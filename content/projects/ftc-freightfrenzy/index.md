@@ -23,6 +23,8 @@ We built a full-stack Android/Java control system for our Freight Frenzy FTC sea
 
 This repo powers both teleop driver controls and a multi-stage autonomous routine optimized for shipping hub cycles.
 
+{{< youtube I6lX12idAf8 >}}
+
 ## Motivation
 
 Freight Frenzy challenges teams to pick up blocks and freight, navigate warehouse zones, and score on a shipping hub under 30 seconds of autonomy. We needed:
