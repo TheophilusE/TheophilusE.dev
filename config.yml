@@ -5,7 +5,7 @@
 baseURL: "/"
 languageCode: "en-us"
 title: "Theophilus Eriata"
-theme: "PaperMod"
+theme: ["PaperMod", "hugo-shortcode-gallery"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
