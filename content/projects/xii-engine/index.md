@@ -5,6 +5,10 @@ tags: ["Project", "C++", "Game Engine", "Graphics", "Cross-Platform", "Real-time
 author: ["Theophilus Eriata"]
 description: "An in-depth look at XII Engine: a modular, cross-platform C++ engine for high-performance real-time applications."
 summary: "Explore the architecture, core features, and roadmap of the XII Engine, a modern multi-platform engine built with C++23."
+cover:
+    image: "images/xiiEditorEngineProcess_2023-01-07_08-53-05-768.png"
+    alt: "Engine Bistro project cover."
+    relative: true
 editPost:
     URL: "https://github.com/XII-Technologies/XII"
     Text: "GitHub Repository"
