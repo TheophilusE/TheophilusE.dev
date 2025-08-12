@@ -2,7 +2,7 @@
 title: "Structure and Function: Rigorous Formalizations and Semantics"
 date: 2025-02-19
 
-tags: ["Blog", "Mathematics", "Formal Systems", "Semantics", "Mathematical Logic", Structure and Function", "Category Theory", "Model Theory", "Topology", "Algebra", "Mathematical Philosophy"]
+tags: ["Blog", "Mathematics", "Formal Systems", "Semantics", "Mathematical Logic", "Structure and Function", "Category Theory", "Model Theory", "Topology", "Algebra", "Mathematical Philosophy"]
 author: ["Theophilus Eriata"]
 description: "A concise exposition on the interplay between mathematical structures and functions, emphasizing the necessity of formal systems and precise semantics for rigorous discourse."
 summary: "This note explores the foundational relationship between structure and function in mathematics. It examines how formal systems and semantic frameworks underpin the integrity of mathematical reasoning. Through examples drawn from algebra, topology, and logic, it highlights the essential role of precise formalization in enabling unambiguous communication and trustworthy functional behavior within mathematical contexts."
