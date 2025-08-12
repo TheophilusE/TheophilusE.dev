@@ -814,8 +814,6 @@ private void moveVector(Vector3d v, long ms)
 - **Pros:** Simple, no trajectory library needed.
 - **Cons:** Distance = Power×Time $\to$ varies with battery level, friction, manufacturing tolerances.
 
----
-
 ### Transitioning to Trajectories
 
 We also included commented‐out methods using Road Runner.
