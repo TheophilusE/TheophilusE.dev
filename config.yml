@@ -48,11 +48,11 @@ params:
   hideFooter: false
 
   ShowShareButtons: false
-  ShowReadingTime: false
+  ShowReadingTime: true
   disableSpecial1stPost: true
   disableAnchoredHeadings: true
   disableScrollToTop: false
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowToc: false
