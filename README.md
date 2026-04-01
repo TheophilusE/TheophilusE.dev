@@ -11,8 +11,6 @@ This repository contains the source code and content for Theophilus Eriata's web
 
 ## Content
 
-+ [Research papers](https://theophiluse.xiitechnologies.com/papers/) - Papers and online appendices are stored as PDF files in the `static` directory. Metadata are stored as Markdown files in the `content/papers` directory.
-
 + [Projects](https://theophiluse.xiitechnologies.com/projects/) - Highlights of technical projects, prototypes, and collaborative efforts. Source code and documentation are stored in the `content/projects` directory.
 
 + [Talks & Presentations](https://theophiluse.xiitechnologies.com/talks/) - Slides, abstracts, and recordings of conference presentations or invited lectures. Files are managed in the `content/talks` directory.
