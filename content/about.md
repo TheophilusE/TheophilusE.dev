@@ -1,27 +1,24 @@
 ## Who I Am
 
-I’m Theophilus Eriata, an Honours Bachelor of Science in Computer Science student at the University of Calgary. From day one, I’ve been driven by the question: how can software and hardware work in harmony to solve real-world problems? My academic journey has taken me through data structures, operating systems, advanced linear algebra, multivariable calculus, each course sharpening my ability to think critically.
+I’m Theophilus Eriata, a multidisciplinary engineer focused on building clear, deterministic systems across graphics, robotics, and high‑performance computing. I enjoy taking complex technical problems and shaping them into architectures that are elegant, maintainable, and grounded in first principles.
 
-## Technical Expertise
+My work spans modern rendering pipelines, GPU‑accelerated simulation, real‑time control, and secure developer infrastructure. I care about systems that behave predictably, scale cleanly, and remain understandable long after they’re deployed. Good engineering, to me, is about creating environments where developers can build with confidence and where complexity never becomes an obstacle to clarity.
 
-My core competencies span from low-level systems to full-stack services:
+I’m completing my BSc in Computer Science with a concentration in theoretical computing and a minor in nanoscience. Alongside my academic work, I lead XII Technologies, where I design tooling, infrastructure, and early‑stage robotics systems and computational chemistry/physics solutions.
 
-| Domain            | Technologies & Skills                                                                                                             |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Languages**     | C/C++, C, Java, Python, C#, Armv8-A Assembly, SQL, JavaScript, HTML/CSS.                                                          |
-| **Graphics**      | Vulkan, Direct3D 11/12, OpenGL, GLSL, HLSL, CUDA/OpenCL.                                                                          |
-| **Robotics**      | ROS/ROS 2, Gazebo, MoveIt, ARM Cortex-M/A, FPGA (VHDL & Verilog).                                                                 |
-| **Backend**       | SQL, MongoDB, REST APIs.                                                                                                          |
-| **DevOps**        | Git/GitHub/GitLab CI, Docker, Kubernetes, Jenkins, CMake, Gradle, CI/CD, GitHub Actions.                                          |
-| **Testing**       | pytest, JUnit, Hardware-in-the-Loop, Software-in-the-Loop, Automated Test Harnesses.                                              |
-| **OS/Platform**   | Linux, Windows, POSIX.                                                                                                            |
-| **Methodologies** | HPC, Multithreading, Parallel & Distributed Systems, Real-Time Processing, Low-Level Optimization, Complex Simulation & Modeling. |
-| **Other**         | Advanced data structures, algorithm optimization, ML fundamentals, debugging & profiling.                                         |
+I’m active in local technical communities, enjoy mentoring peers, and continually explore ways to make advanced systems more accessible, reproducible, and robust. At the core of everything I build is a simple principle: *engineering should empower people, not obscure their intent*.
 
-## My Vision
+I’m happiest when I’m moving. In the summer, that usually means cycling, taking long rides, new routes, and a chance to think through ideas away from a screen.
 
-I believe the future lies at the intersection of real-time systems, graphics, and robotics. I strive to build experiences that feel intuitive yet are powered by complex, optimized engines under the hood. Whether I’m writing a kernel-level optimization or leading a workshop on neural nets, my goal is the same: push boundaries, share knowledge, and create technology that empowers others.
+If you’re interested in collaborating, exploring research, or discussing technical architecture, I’m always open to connecting.
 
-## Let’s Connect
+Here’s a snapshot of the tools and domains I work with.
 
-I love exchanging ideas, mentoring passionate learners, and collaborating on challenging problems. Feel free to reach out via email at `theophiluse <at> xiitechnologies <dot> com` or connect on LinkedIn to start a conversation.
+| Area                       | Technologies & Skills                                                                                                                                                                |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Programming Languages**  | C/C++, Python, Java, C#, JavaScript, TypeScript, Haskell, Prolog                                                                                                                     |
+| **Systems**                | Windows, POSIX, Concurrency, Lock‑Free Programming, Parallel & Distributed Systems                                                                                                   |
+| **Compilers & Toolchains** | Lexing/Parsing, ASTs, Semantic Analysis, IRs, Data/Control‑Flow Analysis, Register Allocation, Instruction Selection, Code Generation, MIPS/x86‑64/Armv8‑A Assembly, LLVM/Clang, GCC |
+| **Graphics**               | Vulkan, Direct3D 11/12, OpenGL, GLSL, HLSL                                                                                                                                           |
+| **Tooling**                | CMake, Ninja, Git, GitHub/GitLab CI, Docker                                                                                                                                          |
+| **Debugging**              | RenderDoc, Nsight, PIX, perf, Valgrind, VTune, LLDB, GDB, Sanitizers, JUnit, pytest                                                                                                  |
