@@ -32,6 +32,8 @@ This repository contains an interactive CPU ray tracer. The implementation demon
 - Interactive (coarse) mode while moving and full-quality rendering after the camera settles.
 - Fly-camera controls, mouse-look, fullscreen/resize robustness, and an advanced Scene 3 with an animated spinning glass cube.
 
+{{< gallery match="images/*.png" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+
 ## Build (Windows / CMake)
 
 Requirements: CMake (3.16+), a C++17-capable toolchain (MSVC/Visual Studio recommended), OpenGL development headers. The repository includes the third-party libraries under `thirdparty/` for convenience.
