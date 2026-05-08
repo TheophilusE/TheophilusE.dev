@@ -64,7 +64,7 @@ params:
   TocOpen: true
   UseHugoToc: true
 
-  MainSections: ["about","skills","experience","projects","leadership","awards","blog"]
+  MainSections: ["about","leadership","projects","blog","contact"]
 
   profileMode:
     enabled: true
@@ -76,14 +76,16 @@ params:
     buttons:
       - name: About Me
         url: /about/
+      - name: Leadership
+        url: /leadership/
       - name: Projects
         url: /projects/
       - name: Blog
         url: "/blog/"
       - name: Contact
         url: "/contact/"
-      - name: Tags
-        url: tags/
+      # - name: Tags
+      #   url: tags/
       - name: Archive
         url: /archive/
 
@@ -91,22 +93,22 @@ params:
     - name: Email
       url: "mailto:theophiluse@xiitechnologies.com"
     - name: GitHub
-      url: "https://github.com/TheophilusE"
+      url: "https://github.com/theoeriata"
     - name: GitLab
-      url: "https://gitlab.com/TheophilusE"
+      url: "https://gitlab.com/theoeriata"
     - name: LinkedIn
       url: "https://linkedin.com/in/theophilus-eriata"
     - name: YouTube
-      url: "https://www.youtube.com/@Theophilus-E"
+      url: "https://www.youtube.com/@theoeriata"
     - name: X
-      url: "https://x.com/TheophilusE12"
+      url: "https://x.com/theoeriata"
     - name: Itch.io
       url: https://theophiluse.itch.io
     - name: Google Scholar
       url: https://scholar.google.com/citations?user=Theophilus+Eriata
 
   assets:
-    disableScrollBarStyle: true
+    disableScrollBarStyle: false
 
   cover:
     hiddenInList: false
