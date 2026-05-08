@@ -10,7 +10,7 @@ cover:
     alt: "Game Banner."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/CurvesAndSurfaces"
+  URL: "https://github.com/theoeriata/CurvesAndSurfaces"
   Text: "GitHub Repository"
 showToc: true
 ---

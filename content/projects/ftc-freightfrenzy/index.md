@@ -6,7 +6,7 @@ author: ["Theophilus Eriata"]
 description: "A complete Java‐based control system for a FIRST Tech Challenge Freight Frenzy robot, featuring path planning, sensor integration, and performance tuning."
 summary: "This post walks through our Freight Frenzy season codebase, from build setup and drive‐train calibration to MeepMeep path visualization and autonomous strategy; highlighting architecture, key features, test results, and future directions."
 editPost:
-    URL: "https://github.com/TheophilusE/FTC_FreightFrenzy"
+    URL: "https://github.com/theoeriata/FTC_FreightFrenzy"
     Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -40,7 +40,7 @@ This drove us to integrate MeepMeep and develop a robust on-robot state architec
 
 1. Clone the FTC SDK and our fork:
    ```bash
-   git clone https://github.com/TheophilusE/FTC_FreightFrenzy.git
+   git clone https://github.com/theoeriata/FTC_FreightFrenzy.git
    cd FTC_FreightFrenzy
    ```
 2. Open in Android Studio (“Import Project (Gradle)”).

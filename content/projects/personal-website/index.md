@@ -6,7 +6,7 @@ author: ["Theophilus Eriata"]
 description: "A fast, SEO-friendly personal website built with Hugo and the PaperMod theme to showcase projects, blog posts, talks, and CV."
 summary: "I developed a modular, content-driven personal website using Hugo. It features dynamic content organization, continuous deployment on Netlify, and a custom PaperMod theme for a clean, responsive design."
 editPost:
-  URL: "https://github.com/TheophilusE/TheophilusE.dev"
+  URL: "https://github.com/theoeriata/TheophilusE.dev"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false

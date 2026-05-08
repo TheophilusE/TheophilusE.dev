@@ -10,7 +10,7 @@ cover:
     alt: "FIRST Tech Challenge Logo"
     relative: true
 editPost:
-    URL: "https://github.com/TheophilusE/FTC_PowerPlay"
+    URL: "https://github.com/theoeriata/FTC_PowerPlay"
     Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -1126,4 +1126,4 @@ By embedding appropriate software practices (e.g., modularity, automated testing
 * [Fork](https://git-fork.com/). A user-friendly Git client with free evaluation (permanent as of writing).
 * [GitHub](https://github.com/). A cloud-based Git repository hosting service.
 
-Checkout the source code on [GitHub](https://github.com/TheophilusE/FTC_PowerPlay/tree/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode).
+Checkout the source code on [GitHub](https://github.com/theoeriata/FTC_PowerPlay/tree/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode).

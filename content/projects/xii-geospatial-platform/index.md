@@ -10,7 +10,7 @@ cover:
     alt: "Game Banner."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/XIIGeospatialPlatform"
+  URL: "https://github.com/theoeriata/XIIGeospatialPlatform"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -61,7 +61,7 @@ Night lights derived from satellite imagery have become a trusted proxy for meas
 ## Usage Guide
 
 ```bash
-git clone https://github.com/TheophilusE/XIIGeospatialPlatform.git
+git clone https://github.com/theoeriata/XIIGeospatialPlatform.git
 cd XIIGeospatialPlatform/Binaries/GeospatialPlatform
 ./Launch\ MainScene.bat
 ```
@@ -121,4 +121,4 @@ No external dependencies beyond DirectX 11 runtime (or Vulkan SDK for experiment
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](https://github.com/TheophilusE/XIIGeospatialPlatform/blob/Development/LICENSE) for full terms.
+This project is released under the MIT License. See [LICENSE](https://github.com/theoeriata/XIIGeospatialPlatform/blob/Development/LICENSE) for full terms.

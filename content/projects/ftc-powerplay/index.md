@@ -6,7 +6,7 @@ author: ["Theophilus Eriata"]
 description: "A Java-based control system for the FIRST Tech Challenge PowerPlay season, featuring mecanum drive with Road Runner path planning, AprilTag-powered signal detection, and a resilient autonomous state machine."
 summary: "This post covers our PowerPlay project end-to-end: mechanical design, software architecture, autonomous & TeleOp strategies, performance metrics, lessons learned, and the roadmap ahead."
 editPost:
-  URL: "https://github.com/TheophilusE/FTC_PowerPlay"
+  URL: "https://github.com/theoeriata/FTC_PowerPlay"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false

@@ -6,7 +6,7 @@ author: ["Theophilus Eriata"]
 description: "pystringbuilder: a Python StringBuilder class with preallocated buffers and fluent API for efficient large-text manipulation."
 summary: "An in-depth look at pystringbuilder’s design, features, benchmarks, usage examples, testing strategy, and future roadmap."
 editPost:
-  URL: "https://github.com/TheophilusE/pystringbuilder"
+  URL: "https://github.com/theoeriata/pystringbuilder"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -120,7 +120,7 @@ Code coverage is maintained above 95%. Continuous integration runs on each pull 
 Clone and import directly, or install via pip (coming soon):
 
 ```bash
-git clone https://github.com/TheophilusE/pystringbuilder.git
+git clone https://github.com/theoeriata/pystringbuilder.git
 cd pystringbuilder
 pip install .
 ```
@@ -154,4 +154,4 @@ Reviewers aim to process PRs within when available.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheophilusE/pystringbuilder/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/theoeriata/pystringbuilder/blob/main/LICENSE) file for details.

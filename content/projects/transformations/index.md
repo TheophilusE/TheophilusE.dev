@@ -10,7 +10,7 @@ cover:
     alt: "Game Banner."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/Transformations"
+  URL: "https://github.com/theoeriata/Transformations"
   Text: "GitHub Repository"
 showToc: true
 ---

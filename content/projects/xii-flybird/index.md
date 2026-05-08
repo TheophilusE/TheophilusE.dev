@@ -10,7 +10,7 @@ cover:
     alt: "Game Banner."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/XII-FlyBird"
+  URL: "https://github.com/theoeriata/XII-FlyBird"
   Text: "GitHub Repository"
 showToc: true
 ---

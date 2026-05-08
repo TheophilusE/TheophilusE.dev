@@ -10,7 +10,7 @@ cover:
     alt: "Game Banner."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/Fractal"
+  URL: "https://github.com/theoeriata/Fractal"
   Text: "GitHub Repository"
 showToc: true
 ---

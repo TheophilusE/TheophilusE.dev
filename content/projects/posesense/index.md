@@ -6,7 +6,7 @@ author: ["Theophilus Eriata"]
 description: "PoseSense is a real-time human pose and gesture recognition system with a Python inference backend and a TypeScript visualization frontend."
 summary: "A practical system for streaming, processing, and visualizing human pose data using deep learning, quaternion processing, and a web-based 3D skeleton viewer."
 editPost:
-  URL: "https://github.com/TheophilusE/PoseSense"
+  URL: "https://github.com/theoeriata/PoseSense"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -44,4 +44,4 @@ The frontend uses TypeScript and a modern build pipeline (Vite) to render a live
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheophilusE/PoseSense/blob/Development/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/theoeriata/PoseSense/blob/Development/LICENSE) file for details.

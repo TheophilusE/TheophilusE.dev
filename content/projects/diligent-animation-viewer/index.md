@@ -10,7 +10,7 @@ cover:
     alt: "Vision GLTF Viewer"
     relative: true
 editPost:
-    URL: "https://github.com/TheophilusE/VisionEngine"
+    URL: "https://github.com/theoeriata/VisionEngine"
     Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false

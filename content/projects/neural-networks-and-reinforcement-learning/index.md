@@ -10,7 +10,7 @@ cover:
     alt: "Balancing a single pendulum."
     relative: true
 editPost:
-  URL: "https://github.com/TheophilusE/NeuralNetworksAndReinforcementLearning"
+  URL: "https://github.com/theoeriata/NeuralNetworksAndReinforcementLearning"
   Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
@@ -68,4 +68,4 @@ This workshop is designed for:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheophilusE/NeuralNetworksAndReinforcementLearning/blob/Development/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/theoeriata/NeuralNetworksAndReinforcementLearning/blob/Development/LICENSE) file for details.

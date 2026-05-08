@@ -10,7 +10,7 @@ cover:
     alt: "FIRST Tech Challenge Logo"
     relative: true
 editPost:
-    URL: "https://github.com/TheophilusE/FTC_FreightFrenzy"
+    URL: "https://github.com/theoeriata/FTC_FreightFrenzy"
     Text: "GitHub Repository"
 showToc: true
 disableAnchoredHeadings: false
