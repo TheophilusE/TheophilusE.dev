@@ -187,7 +187,7 @@ On Linux/macOS:
   - main.cpp
     - app entry point
 
-- 453-skeleton
+- core
   - PickBuffer.h / PickBuffer.cpp
     - integer ID picking framebuffer
   - Texture.h / Texture.cpp
