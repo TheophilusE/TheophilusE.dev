@@ -85,3 +85,72 @@ The nanoscience foundations of this field are not merely background context but 
 Looking ahead, several developments promise to push this field further. Semiconductor quantum dots embedded alongside SPIONs could enable real-time fluorescence-based tracking of individual swarm members, providing ground-truth position data to validate and calibrate GPU-accelerated simulations \cite{wang2021trends}. The concept of a \textit{digital twin} (a virtual replica of a physical swarm running in lockstep with an experiment) becomes feasible when simulation latency drops below one millisecond, opening the door to online model calibration and adaptive replanning during procedures. The recent demonstration by Landers \textit{et al.} of clinically ready magnetic microrobots navigating under fluoroscopy in large animal models \cite{landers2025clinically} confirms that the physical systems are maturing in parallel with the computational tools reviewed here.
 
 Perhaps most exciting is the prospect of deploying GPU-accelerated swarm controllers on edge hardware. Mobile GPU platforms such as the NVIDIA Jetson series already offer sufficient parallel computing power to handle swarms of a few thousand agents within the thermal and power constraints of a portable medical device. Within the next decade, the convergence of nanomaterials engineering, massively parallel computation, and machine learning may deliver what was once purely speculative: autonomous swarms of therapeutic nanodevices, guided in real time through the living body, precisely where they are needed most.
+
+## Citations
+
+[Wang et al., 2021]: https://doi.org/10.1002/adma.202002047  
+B. Wang, K. Kostarelos, B. J. Nelson, and L. Zhang.  
+*Trends in micro-/nanorobotics: materials development, actuation, localization, and system integration for biomedical applications.*  
+Adv. Mater. 33 (2021), 2002047.
+
+[Yu et al., 2019]: https://doi.org/10.1038/s41467-019-13542-0  
+J. Yu, D. Jin, K.-F. Chan, Q. Wang, K. Yuan, and L. Zhang.  
+*Active generation and magnetic actuation of microrobotic swarms in bio-fluids.*  
+Nat. Commun. 10 (2019), 5631.
+
+[Li et al., 2024]: https://doi.org/10.3390/math12122180  
+Y. Li, Y. Huo, X. Chu, and L. Yang.  
+*Automated magnetic microrobot control: from mathematical modeling to machine learning.*  
+Mathematics 12 (2024), 2180.
+
+[Jia et al., 2025]: https://doi.org/10.3390/mi16020181  
+L. Jia, G. Su, M. Zhang, Q. Wen, L. Wang, and J. Li.  
+*Propulsion mechanisms in magnetic microrobotics: from single microrobots to swarms.*  
+Micromachines 16 (2025), 181.
+
+[Landers et al., 2025]: https://doi.org/10.1126/science.adx1708  
+F. C. Landers et al.  
+*Clinically ready magnetic microrobots for targeted therapies.*  
+Science (2025).
+
+[Vangijzegem et al., 2023]: https://doi.org/10.3390/pharmaceutics15010236  
+T. Vangijzegem et al.  
+*Superparamagnetic iron oxide nanoparticles (SPION): from fundamentals to state-of-the-art innovative applications for cancer therapy.*  
+Pharmaceutics 15 (2023), 236.
+
+[Chen et al., 2024]: https://doi.org/10.1038/s41467-024-44334-3  
+Y. Chen et al.  
+*Lightweight and drift-free magnetically actuated millirobots via asymmetric laser-induced graphene.*  
+Nat. Commun. 15 (2024), 4334.
+
+[Abbasi et al., 2024]: https://doi.org/10.1038/s42256-023-00758-4  
+S. A. Abbasi, A. Ahmed, S. Noh, et al.  
+*Autonomous 3D positional control of a magnetic microrobot using reinforcement learning.*  
+Nat. Mach. Intell. 6 (2024), 92–105.
+
+[Yigit et al., 2019]: https://doi.org/10.1002/advs.201801837  
+B. Yigit, Y. Alapan, and M. Sitti.  
+*Programmable collective behavior in dynamically self-assembled mobile microrobotic swarms.*  
+Adv. Sci. 6 (2019), 1801837.
+
+[Yan et al., 2024]: https://doi.org/10.1038/s44172-023-00107-5  
+Y. Yan, C. Song, Z. Shen, et al.  
+*Programming structural and magnetic anisotropy for tailored interaction and control of soft microrobots.*  
+Commun. Eng. 3 (2024), 7.
+
+[Richmond et al., 2023]: https://doi.org/10.1002/spe.3281  
+P. Richmond, R. Chimeh, M. Sheridan, et al.  
+*FLAME GPU 2: a framework for flexible and performant agent based simulation on GPUs.*  
+Softw. Pract. Exper. 53 (2023), 1659–1680.
+
+[Kosiachenko et al., 2019]: https://doi.org/10.1007/978-3-030-24209-1_12  
+L. Kosiachenko, N. Hart, and M. Fukuda.  
+*MASS CUDA: a general GPU parallelization framework for agent-based models.*  
+In: *Advances in Practical Applications of Agents, Multi-Agent Systems, and Complexity (PAAMS 2019)*,  
+LNCS 11523, Springer, pp. 139–152.
+
+[Guan & Balakrishna, 2025]: https://doi.org/10.1016/j.cpc.2024.109405  
+H. Guan and A. R. Balakrishna.  
+*GPU-accelerated micromagnetic simulations with CuPyMag.*  
+Comput. Phys. Commun. 308 (2025), 109405.
+
