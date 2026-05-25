@@ -96,9 +96,20 @@ Traditional model-based controllers such as proportional-integral-derivative (PI
 
 Extending RL to swarms requires a multi-agent formulation. In the centralized-training, decentralized-execution (CTDE) paradigm, a single critic network observes the entire swarm during training to learn which collective strategies succeed, but each agent carries its own lightweight actor network that makes decisions based only on local observations during deployment. GPU acceleration is doubly important here, it enables the massively parallel simulation environments needed to train the RL agents (hundreds of independent episodes running simultaneously on the GPU), and it supports real-time inference of thousands of actor networks in under 0.3 milliseconds [Abbasi et al., 2024], [Li et al., 2024].
 
+<figure id="fig-scaling" style="margin: 1.5rem auto; text-align: center; width: 100%;">
+  <img src="swarm-size-for-cpu-and-gpu-implementations.png"
+       alt="Scaling of computation time with swarm size for CPU and GPU implementations. Both axes are logarithmic. The GPU (blue triangles) maintains sub-millisecond performance up to N = 10,000, while the CPU (red squares) exceeds the real-time threshold (green dashed line) beyond approximately N = 100. Data represent mean values over 1,000 timestep iterations."
+       style="max-width: 100%; height: auto;">
+
+  <figcaption style="background:none; box-shadow:none; border:none; font-weight:normal; padding:0.5rem 0 0 0; text-align:center;">
+    <strong>Scaling of computation time with swarm size for CPU and GPU implementations.</strong>
+    Both axes are logarithmic. The GPU (blue triangles) maintains sub‑millisecond performance up to N = 10,000, while the CPU (red squares) exceeds the real‑time threshold (green dashed line) beyond approximately N = 100. Data represent mean values over 1,000 timestep iterations.
+  </figcaption>
+</figure>
+
 ### Critical Analysis
 
-While the performance gains in FIG. \ref{fig:scaling} are impressive, several limitations deserve scrutiny. First, the spatial hashing approximation that makes GPU simulation tractable introduces a finite interaction cutoff, where agents beyond a certain distance are treated as non-interacting. For the rapidly decaying dipole-dipole force (which falls off as the inverse fourth power of distance), a cutoff of ten body diameters captures over 99% of the interaction energy. However, Yigit *et al.* showed that long-range ordering effects in crystalline swarm phases depend on subtle far-field correlations that a cutoff scheme may underestimate [Yigit et al., 2019].
+While the performance gains in FIG. [Scaling](#fig-scaling) are impressive, several limitations deserve scrutiny. First, the spatial hashing approximation that makes GPU simulation tractable introduces a finite interaction cutoff, where agents beyond a certain distance are treated as non-interacting. For the rapidly decaying dipole-dipole force (which falls off as the inverse fourth power of distance), a cutoff of ten body diameters captures over 99% of the interaction energy. However, Yigit *et al.* showed that long-range ordering effects in crystalline swarm phases depend on subtle far-field correlations that a cutoff scheme may underestimate [Yigit et al., 2019].
 
 Second, current GPU frameworks overwhelmingly treat microrobots as rigid bodies with fixed nanoparticle distributions. Yan *et al.* recently demonstrated soft microrobots fabricated from hydrogel matrices whose shape deforms under magnetic and hydrodynamic loads, altering both the effective magnetic moment and the drag coefficient [Yan et al., 2024]. Capturing such deformations would require coupling the agent-based simulator with a finite-element structural solver, which is feasible on a GPU but at roughly three times the computational cost.
 
