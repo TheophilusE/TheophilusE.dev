@@ -62,7 +62,33 @@ The most widely adopted strategy assigns one GPU thread to each microrobot agent
 
 The Flexible Large-scale Agent Modelling Environment (FLAME) GPU 2 framework demonstrated that this approach in FIG. [Architecture](#fig-architecture) can accelerate general agent-based models by two to three orders of magnitude over CPU baselines, handling millions of agents by keeping all data resident in GPU memory and eliminating costly host-device transfers [Richmond et al., 2023]. Domain-specific implementations for magnetic microrobots build on this principle by adding physics kernels for the Langevin magnetization response and magnetic relaxation dynamics described in Section \ref{sec:level3} [Guan & Balakrishna, 2025]. Table~\ref{tab:performance} summarizes representative performance benchmarks for CPU versus GPU implementations across a range of swarm sizes.
 
-Several trends in Table~\ref{tab:performance} merit discussion. The GPU advantage is modest at small swarm sizes ($15\times$ for one hundred agents) because fixed overheads such as kernel launch latency dominate when there is little parallel work to distribute. As the swarm grows, the GPU's thousands of cores become fully utilized, and speedup peaks at $112\times$ for ten thousand agents. Beyond this point, memory bandwidth (rather than compute capacity) becomes the limiting factor, and speedup plateaus near $109\times$. Crucially, the GPU maintains sub-millisecond timesteps for swarms up to ten thousand agents, comfortably exceeding the approximately \SI{100}{\hertz} minimum update rate needed for navigation in pulsatile blood flow.
+<figure id="tab-performance">
+  <figcaption>
+    <strong>Computational performance comparison.</strong>
+    Per‑timestep wall‑clock times for CPU (OpenMP, 16 cores, Intel Xeon W‑2245) and GPU (NVIDIA A100) implementations of magnetic swarm simulation, including achieved speedup and GPU memory usage. The real‑time control threshold of 1 ms per step is met by the GPU for swarms up to N = 10,000.
+  </figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th>Swarm size N</th>
+        <th>CPU (ms/step)</th>
+        <th>GPU (ms/step)</th>
+        <th>Speedup (×)</th>
+        <th>GPU mem. (GB)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>100</td>    <td>1.20</td>  <td>0.08</td>  <td>15.0</td>  <td>0.1</td></tr>
+      <tr><td>500</td>    <td>8.70</td>  <td>0.14</td>  <td>62.1</td>  <td>0.3</td></tr>
+      <tr><td>1,000</td>  <td>22.40</td> <td>0.25</td>  <td>89.6</td>  <td>0.6</td></tr>
+      <tr><td>5,000</td>  <td>48.30</td> <td>0.52</td>  <td>92.9</td>  <td>2.4</td></tr>
+      <tr><td>10,000</td> <td>84.10</td> <td>0.75</td>  <td>112.1</td> <td>4.7</td></tr>
+      <tr><td>50,000</td> <td>412.60</td><td>3.80</td>  <td>108.6</td> <td>22.8</td></tr>
+    </tbody>
+  </table>
+</figure>
+
+Several trends in Table [Performance](#tab-performance) merit discussion. The GPU advantage is modest at small swarm sizes ($15\times$ for one hundred agents) because fixed overheads such as kernel launch latency dominate when there is little parallel work to distribute. As the swarm grows, the GPU's thousands of cores become fully utilized, and speedup peaks at $112\times$ for ten thousand agents. Beyond this point, memory bandwidth (rather than compute capacity) becomes the limiting factor, and speedup plateaus near $109\times$. Crucially, the GPU maintains sub-millisecond timesteps for swarms up to ten thousand agents, comfortably exceeding the approximately \SI{100}{\hertz} minimum update rate needed for navigation in pulsatile blood flow.
 
 ### Reinforcement Learning for Swarm Navigation
 
